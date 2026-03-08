@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import Character from './domain.js';
 
 export default class Game {
