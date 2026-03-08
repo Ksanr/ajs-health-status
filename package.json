@@ -21,7 +21,6 @@
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.22.20",
-    "@eslint/js": "^10.0.1",
     "@types/jest": "^29.5.5",
     "babel-jest": "^30.2.0",
     "babel-loader": "^9.1.3",
