@@ -1,13 +1,11 @@
 export function httpGet(url) {
-  throw new Error(url);
+  throw new Error(`HTTP GET request to ${url} failed`);
 }
 
 export function httpPost(url) {
-  throw new Error(url);
+  throw new Error(`HTTP POST request to ${url} failed`);
 }
 
-// Демо-реализация, которая в реальности делает запрос к серверу.
-// В тестах её полностью замена моком.
 export default function fetchData(url) {
-  throw new Error('Mock this!');
+  throw new Error(`Fetch data from ${url} failed - mock this!`);
 }
